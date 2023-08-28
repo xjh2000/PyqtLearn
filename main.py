@@ -2,7 +2,8 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-from untitled import Ui_Form
+from design.MainWindow import Ui_MainWindow
+from design.untitled import Ui_Form
 
 if __name__ == '__main__':
     # 只有直接运行这个脚本，才会往下执行
@@ -15,7 +16,7 @@ if __name__ == '__main__':
     mainWindow = QMainWindow()
 
     # 创建ui，引用demo1文件中的Ui_MainWindow类
-    ui = Ui_Form()
+    ui = Ui_MainWindow()
     # 调用Ui_MainWindow类的setupUi，创建初始组件
     ui.setupUi(mainWindow)
     # 创建窗口
