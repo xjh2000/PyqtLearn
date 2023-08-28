@@ -2,8 +2,8 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-from design.MainWindow import Ui_MainWindow
-from design.untitled import Ui_Form
+from ui.MainWindow import Ui_MainWindow
+from ui.untitled import Ui_Form
 
 if __name__ == '__main__':
     # 只有直接运行这个脚本，才会往下执行

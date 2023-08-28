@@ -33,7 +33,7 @@
     <property name="title">
      <string>1</string>
     </property>
-    <addaction name="actionsss"/>
+    <addaction name="action1_1"/>
     <addaction name="action1_2"/>
    </widget>
    <widget class="QMenu" name="menusss_2">
@@ -46,19 +46,21 @@
    <addaction name="menusss_2"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionsss">
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action1_1"/>
+  </widget>
+  <action name="action1_1">
    <property name="text">
     <string>1.1</string>
-   </property>
-  </action>
-  <action name="actionsss_2">
-   <property name="text">
-    <string>sss</string>
-   </property>
-  </action>
-  <action name="actionssss">
-   <property name="text">
-    <string>ssss</string>
    </property>
   </action>
   <action name="action1_2">
